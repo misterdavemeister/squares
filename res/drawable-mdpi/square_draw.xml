@@ -1,0 +1,19 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/standard"
+        android:duration="250"/>
+    <item
+        android:drawable="@drawable/active"
+        android:duration="250"/>
+    <item
+        android:drawable="@drawable/active2"
+        android:duration="250"/>
+    
+    <!-- Reset to original -->
+    <item
+        android:drawable="@drawable/standard"
+        android:duration="10"/>
+
+</animation-list>
